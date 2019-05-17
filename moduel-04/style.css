@@ -15,6 +15,11 @@ img {
     height: auto;
 }
 
+.container-all {
+    width: 1110px;
+    margin: auto;
+    padding-top: 40px;
+}
 
 /* Nav */
 
@@ -37,14 +42,11 @@ img {
 }
 .menu {
     padding-top: 8px;
-    margin-top: 40px;
     margin-bottom: 108px;
     list-style: none;
+    float: right;
 }
-.nav {
-    width: 1110px;
-    margin: 0 auto;
-}
+
 
 .menu li {
     float: right;
@@ -73,8 +75,7 @@ img {
     font-family: 'Roboto', sans-serif;
 }
 .featured-products {
-    width: 1110px;
-    margin: 0 auto;
+    
     margin-bottom: 104px;
 }
 .title {
@@ -148,21 +149,20 @@ img {
     text-transform: uppercase;
     color: rgb(255, 255, 255);
 }
-.fon2:hover,
-.fon2:focus,
-.fon3:hover,
-.fon3:focus {
-    background-color: rgb(41, 192, 163);
+
+li:hover .fon2 {
+    background-color:rgb(41, 192, 163);
 }
+li:hover .fon3 {
+    background-color:rgb(127, 217, 199);
+}
+
 .wrapper {
     font-size: 0;
     margin-bottom: 18px;
 }
 
-.blog {
-    width: 1110px;
-    margin:0 auto;
-}
+
 .blog-list {
     padding: 0;
 }
