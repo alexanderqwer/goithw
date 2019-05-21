@@ -121,6 +121,7 @@ img {
     line-height: 282px;
     background-color:rgb(233, 240, 253);
     text-align: center;
+    overflow: hidden;
 }
 .item-img {
     vertical-align: middle;
@@ -207,4 +208,7 @@ li:hover .fon3 {
     color: rgb(255, 255, 255);
     font-size: 18px;
     line-height: 26px;
+}
+.commit {
+    display: block;
 }
