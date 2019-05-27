@@ -5,7 +5,6 @@ img {
 }
 
 :root {
-    width: 1600px;
     margin: auto;
     padding-top: 40px;
 }
@@ -65,8 +64,7 @@ body {
 
 .slaider {
     position: relative;
-    width: 1600px;
-    height: 600px;
+    height: auto;
     margin: 0 auto;
     list-style: none;
     padding: 0;
@@ -83,11 +81,14 @@ body {
     top: 50%;
     width: 104px;
     height: 104px;
-    background-color: rgb(26, 188, 156);
     border: none;
     z-index: 5;
     opacity: 0.651;
     top: 225px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.slaider-key:hover {
+    background-color: rgb(26, 188, 156);
 }
 .slaider-key-previous {
     left: 245px;
@@ -128,6 +129,9 @@ body {
     z-index: 3;
     text-align: left;
     margin: 0 auto;  
+}
+.slaide-image {
+    width: 100%;
 }
 
 /* New collection */
@@ -220,21 +224,27 @@ li:hover .fon3 {
     position: absolute;
     width: 234px;
     height: 302px;
-    background-color: rgb(0, 0, 0);
-    opacity: 0;
+    background-color: rgba(141, 133, 133, 0);
     top: 10px;
     left: 10px;
     bottom: 10px;
     right: 10px;
+ 
 }
+
 .menu-item-coll:hover .overlay {
-    opacity: 0.549;
+    background-color: rgba(141, 133, 133, 0.7);
 }
 .overlay-icon {
     position: absolute;
     display: inline-block;
     border: 1px solid white;
+    background-color: rgba(26, 188, 156, 0,7);
 }
+.overlay-icon:hover {
+    background-color: rgba(26, 188, 156, 1);
+}
+
 .icon-one {
     width: 50px;
     height: 50px;
@@ -243,6 +253,7 @@ li:hover .fon3 {
     left: 35px;
     top: 80px;
 }
+
 .icon-two {
     width: 50px;
     height: 50px;
@@ -250,7 +261,6 @@ li:hover .fon3 {
     text-align: center;
     left: 94px;
     top: 80px;
-    background-color: rgb(26, 188, 156);
 }
 .icon-three {
     width: 50px;
@@ -273,7 +283,6 @@ li:hover .fon3 {
 /* footer */
 
 .footer {
-    width: 1600px;
     height: 88px;
     background-color: rgb(50, 50, 50);
     
