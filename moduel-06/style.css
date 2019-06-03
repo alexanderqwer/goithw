@@ -29,14 +29,10 @@
     font-size: 14px;
     text-transform: uppercase;
     color: rgb(149, 225, 211);
-    transition-property: color;
-    transition-duration: 2s;
 }
-.menu-link:hover:after,
-.menu-link:focus::after {
+.menu-link:hover:after {
     color: rgb(246, 161, 161);
     background: rgb(246, 161, 161);
-    
 }
 .menu-link:after{
     content: '';
@@ -45,7 +41,7 @@
     width: 50px;
     height: 3px;
     color: transparent;
-    
+    transition-duration: 2s;
 }
 
 /* main */
@@ -159,26 +155,26 @@
 .overlay {
     width: 380px;
     height: 470px;
-    background-color: red;
+    background: linear-gradient(to top, rgb(244, 215, 139), rgb(239, 138, 138));
     position: absolute;
     opacity: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 .overlay-icon {
     display: inline-block;
     width: 55px;
     height: 55px;
-    background-color: green;
+    background-color: rgb(252, 227, 138);
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 1px;
 }
 .overlay-icon:hover {
-    background: purple;
+    background: rgb(149, 225, 211);
 }
 .team-all {
     position: relative;
@@ -186,4 +182,66 @@
 .team-all:hover .overlay {
     opacity: 0.7;
 
+}
+.fon-overlay {
+    position: relative;
+    width: 380px;
+    height: 470px;
+    background-color: rgb(149, 225, 211);
+    z-index: 1;
+}
+.fon-overlay:hover {
+    transform: translate(-10px, -10px);
+    transition: 2s linear;
+}
+.bg {
+    width: 380px;
+    height: 470px;
+    position: absolute;
+    bottom: 101px;
+    background-color: rgb(149, 225, 211);
+}
+.amazing {
+    margin-bottom: 82px;
+}
+/* footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    border-top: 1px solid black;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.mogo {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.2em;
+}
+.name-red {
+    color: red;
+}
+.email {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 1.2em;
+    width: 228px;
+    height: 40px;
+    padding-left: 10px;
+}
+.button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 1.2em;
+    width: 150px;
+    height: 46px;
+    background-color: rgb(149, 225, 211);
+    color: #ffffff;
+    border: none;
+}
+.subscribe {
+    margin-top: 10px;
 }
