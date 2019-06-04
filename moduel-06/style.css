@@ -130,7 +130,8 @@
 }
 
 .imges {
-    max-width: 100%;
+    /* max-width: 100%; */
+    
 }
 .name-team{
     text-align: center;
@@ -155,14 +156,15 @@
 .overlay {
     width: 380px;
     height: 470px;
-    background: linear-gradient(to top, rgb(244, 215, 139), rgb(239, 138, 138));
+    background: linear-gradient(to top, rgba(244, 215, 139, 0.9), rgba(239, 138, 138, 0.9));
     position: absolute;
     opacity: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
+
+
 .overlay-icon {
     display: inline-block;
     width: 55px;
@@ -172,15 +174,17 @@
     justify-content: center;
     align-items: center;
     margin-right: 1px;
+    
 }
 .overlay-icon:hover {
     background: rgb(149, 225, 211);
+    
 }
 .team-all {
     position: relative;
 }
 .team-all:hover .overlay {
-    opacity: 0.7;
+    opacity: 1;
 
 }
 .fon-overlay {
@@ -189,10 +193,11 @@
     height: 470px;
     background-color: rgb(149, 225, 211);
     z-index: 1;
+    overflow: hidden;
+    transition: 0.2s linear;
 }
 .fon-overlay:hover {
     transform: translate(-10px, -10px);
-    transition: 2s linear;
 }
 .bg {
     width: 380px;
