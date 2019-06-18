@@ -1,0 +1,98 @@
+@media (max-width: 767px) {
+    .team-list {
+        margin-bottom: 30px;
+    }
+    
+}
+@media (min-width:768px) {
+
+    .header {
+        min-width: 768px;
+        justify-content: space-around;
+        flex-direction: row;
+        margin-bottom: 66px;
+        padding-top: 22px;
+    }
+    .bg {
+        background-image: url(img/Rectangle\ 2.png);
+        background-repeat: no-repeat;
+        background-color: black;
+    }
+    .item-list {
+        width: 148px;
+        order: 2;
+        margin-top: 0;
+    }
+    .logo {
+        padding-top: 32px;
+    }
+    .fz-14 {
+        margin-bottom: 40px;
+    }
+    .fz-16 {
+        margin-bottom: 40px;
+    }
+    .main {
+        margin-top: 72px;
+        min-width: 492px;
+    }
+    .team{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .order-01 {
+        order: 1;
+    }
+    .order-02 {
+        order: 3;
+    }
+    .order-03 {
+        order: 2;
+    }
+    .order-04 {
+        order: 4;
+    }
+    .icon-tv::before {
+        right: 28px;
+    }
+    .icon-flask::before {
+        right: 50px;
+    }
+    .icon-tea::before {
+        right: 34px;
+    }
+    .icon-telegram::before {
+        right: 30px;
+        bottom: 125px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1439px) {
+    .team-list:nth-last-child(-n+2) {
+        margin-bottom: 54px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .header {
+        min-width: 1440px;
+    }
+    .bg {
+        background-image: url(img/Rectangle\ 3.png);
+        background-color: black;
+    }
+    .br {
+        display: none;
+    }
+    .main {
+        min-width: 940px;
+    }
+    .holiday {
+        margin-bottom: 32px;
+    }
+    .icon-tv::before {
+        bottom: 124px;
+    }
+    .icon-tea::before {
+        bottom: 124px;
+    }
+}

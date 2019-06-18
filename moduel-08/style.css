@@ -1,0 +1,229 @@
+
+
+/* roboto-300 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'),
+       url('../fonts/Roboto/roboto-v19-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/Roboto/roboto-v19-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'),
+       url('../fonts/Roboto/roboto-v19-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/Roboto/roboto-v19-latin-regular.woff') format('woff'); /*Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-regular - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'),
+       url('../fonts/Montserrat/montserrat-v13-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/Montserrat/montserrat-v13-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-900 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Montserrat Black'), local('Montserrat-Black'),
+       url('../fonts/Montserrat/montserrat-v13-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/Montserrat/montserrat-v13-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+.bg {
+  background-image: url(img/Rectangle\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* header */
+
+.header {
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 34px;
+}
+.item-list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  padding-top: 32px;
+  margin-bottom: 128px;
+}
+
+.link-item {
+  text-decoration: none; 
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+}
+.link-item:hover {
+  border: 2px solid white;
+  border-radius: 50px;
+  padding: 6px;
+}
+.logo {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  
+}
+.friend {
+  text-align: center;
+}
+
+.fz-14 {
+  margin-bottom: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.fz-16 {
+  margin-bottom: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  color: white;
+}
+
+.marginbottom {
+  padding-bottom: 138px;
+  
+}
+.border {
+  margin-bottom: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(255, 78, 80);
+  width: 280px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 50px;
+}
+
+/* main */
+.main {
+  width: 320px;
+  margin: 0 auto;
+
+}
+.holiday {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+}
+.name {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+.about {
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+  color: rgb(143, 143, 143);
+}
+.team-list {
+  position: relative;
+  list-style: none;
+  text-align: center;
+  margin: 0 auto;
+}
+.icon-tv::before {
+  content: '';
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background-image: url(/img/icons/Shape\ 128.png);
+  background-color: rgb(255, 78, 80);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  border: 4px solid white;
+  right: 100px;
+  bottom: 94px;
+}
+.icon-flask::before {
+  content: '';
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background-image: url(/img/icons/Shape\ 155.png);
+  background-color: rgb(255, 165, 7);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  border: 4px solid white;
+  right: 100px;
+  bottom: 128px;
+}
+.icon-tea::before {
+  content: '';
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background-image: url(/img/icons/Shape\ 153.png);
+  background-color: rgb(28, 215, 173);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  border: 4px solid white;
+  right: 100px;
+  bottom: 94px;
+}
+.icon-telegram::before {
+  content: '';
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background-image: url(/img/icons/Shape\ 170.png);
+  background-color: rgb(78, 115, 219);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  border: 4px solid white;
+  right: 100px;
+  bottom: 94px;
+}
+.team {
+  padding: 0;
+  margin-bottom: 30px;
+}
+.name {
+  margin-bottom: 16px;
+}
+.button {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.click-button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: red;
+    background-color: white;
+    width: 280px;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 50px;
+    border: 2px solid red;
+}
