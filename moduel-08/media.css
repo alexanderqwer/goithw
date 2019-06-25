@@ -4,7 +4,7 @@
     }
     
 }
-@media (min-width:768px) {
+@media (min-width:790px) {
 
     .header {
         min-width: 768px;
@@ -54,16 +54,18 @@
     }
     .icon-tv::before {
         right: 28px;
+        bottom: 148px;
     }
     .icon-flask::before {
         right: 50px;
+        bottom: 148px;
     }
     .icon-tea::before {
         right: 34px;
     }
     .icon-telegram::before {
         right: 30px;
-        bottom: 125px;
+        bottom: 94px;
     }
 }
 @media (min-width: 768px) and (max-width: 1439px) {
@@ -94,5 +96,11 @@
     }
     .icon-tea::before {
         bottom: 124px;
+    }
+    .icon-flask::before {
+        bottom: 128px;
+    }
+    .icon-telegram::before {
+        bottom: 128px;
     }
 }
