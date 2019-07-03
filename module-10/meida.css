@@ -1,0 +1,13 @@
+
+
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .bg {
+        background: linear-gradient(to bottom,
+      rgba(243, 129, 129, 0.9), 
+      rgba(252, 227, 138, 0.9)),
+      url(/img/bg/Layer15@2x.png);
+      background-size: cover;
+      background-position: center;
+    }
+    
+}

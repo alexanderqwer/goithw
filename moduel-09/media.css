@@ -1,0 +1,67 @@
+
+/* @media (min-width: 320px) {
+    .icon-tv::before {
+        right: 120px;
+        bottom: 130px;
+    }
+    .icon-flask::before {
+        right: 120px;
+        bottom: 130px;
+    }
+    .icon-tea::before {
+        right: 120px;
+    }
+    .icon-telegram::before {
+        right: 120px;
+        bottom: 94px;
+    }
+} */
+
+@media (min-width: 768px) {
+    .nav-flex {
+        display: flex;
+    }
+    .bg {
+        background-image: url(img/Rectangle\ 2.png);
+        background-repeat: no-repeat;
+        background-color: black;
+    }
+    .icon-tv::before {
+        right: 120px;
+        bottom: 98px;
+    }
+    .icon-flask::before {
+        right: 120px;
+        bottom: 130px;
+    }
+    .icon-tea::before {
+        right: 120px;
+    }
+    .icon-telegram::before {
+        right: 120px;
+        bottom: 130px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .bg {
+    background-image: url(img/Rectangle\ 3.png);
+    background-color: black;
+}
+    .icon-tv::before {
+        bottom: 180px;
+        left: 120px;
+    }
+    .icon-tea::before {
+        bottom: 180px;
+        left: 120px;
+    }
+    .icon-flask::before {
+        bottom: 180px;
+        left: 120px;
+    }
+    .icon-telegram::before {
+        bottom: 180px;
+        left: 120px;
+    }
+}
