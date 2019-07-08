@@ -9,5 +9,13 @@
       background-size: cover;
       background-position: center;
     }
-    
+    .card__photo--one {
+      background: url(img/team/Layer\ 16@2x-min.png);
+    }
+    .card__photo--two {
+      background: url(img/team/Layer\ 19@2x-min.png);
+    }
+    .card__photo--three {
+      background: url(img/team/Layer\ 18@2x-min.png);
+    }
 }
