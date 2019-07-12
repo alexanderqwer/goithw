@@ -1,0 +1,27 @@
+.banner {
+    padding-bottom: 230px;
+}
+.banner__lvl-2 {
+    @extend  %kaushan;
+    font-size: 72px;
+    color: $primary-white-color;
+    margin-bottom: 36px;
+}
+.banner__lvl-1 {
+    @extend %montserrat900;
+    font-size: 150px;
+    color: $primary-white-color;
+    margin-bottom: 124px;
+    text-transform: uppercase;
+}
+
+.banner__btn {
+    @extend %montserrat900;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid $primary-white-color;
+    padding: 12px;
+    background-color: transparent;
+    color: $primary-white-color;
+    text-transform: uppercase;
+}

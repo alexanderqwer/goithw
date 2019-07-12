@@ -1,0 +1,110 @@
+.card__all {
+    @include center-flex ('sb');
+    list-style: none;
+    padding: 0;
+    font-size: 0;
+}
+.card__name-team{
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding-top: 30px;
+    margin-top: 0;
+    margin-bottom: 20px;
+
+}
+.card__occupation {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    color: $sub-gray-color;
+
+}
+.card__overlay-icon {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background-color: $primary-gold-color;
+    display: flex;
+    margin-right: 1px;
+    
+    &:hover {
+    background: $primary-peach-color;   
+    }
+}
+.card__overlay {
+    width: 380px;
+    height: 470px;
+    background: linear-gradient(to top, rgba(244, 215, 139, 0.9), rgba(239, 138, 138, 0.9));
+    position: absolute;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+            &:hover{
+            opacity: 1;
+            }
+}
+.card__overlay-icon {
+    @include center-flex ('all');
+    width: 55px;
+    height: 55px;
+    background-color: $primary-gold-color;
+    margin-right: 1px;
+
+    &:hover {
+    background: $primary-peach-color;   
+    }
+}
+.card__svg {
+    display: inline-block; 
+}
+.card__svg--facebook {
+    width: 16px;
+    height: 32px;
+    fill: $primary-white-color;
+}
+.card__svg--twitter {
+    width: 38;
+    height: 32px;
+    fill: $primary-white-color;
+}
+.card__svg--pinterest {
+    width: 26px;
+    height: 32px;
+    fill: $primary-white-color ;
+}
+.card__svg--instagram {
+    width: 32px;
+    height: 32px;
+    fill: $primary-white-color ;
+}
+.card{
+    position: relative;
+}
+
+.card__fon-overlay {
+    position: relative;
+    width: 380px;
+    height: 470px;
+    background-color: $primary-turquoise-color;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.2s linear;
+
+       &:hover { 
+            transform: translate(-10px, -10px);
+            }
+}
+.card__bg {
+    width: 380px;
+    height: 470px;
+    position: absolute;
+    bottom: 98px;
+    background-color: $primary-turquoise-color;
+}

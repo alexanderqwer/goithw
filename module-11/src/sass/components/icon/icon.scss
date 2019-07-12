@@ -1,0 +1,76 @@
+.icon {
+    position: relative;
+}
+.icon-alarm {
+    &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: -60px;
+    top: 22px;
+    background-image: url(../../../images/icon-social/clock.svg);
+    }
+}
+
+.icon-book {
+    &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: -60px;
+    top: 22px;
+    background-image: url(../../../images/icon-social/book.svg);
+    }
+}
+.icon-computer {
+    &::before { 
+    content: "";
+    display: block;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: -60px;
+    top: 22px;
+    background-image: url(../../../images/icon-social/computer.svg);
+    }
+}
+.icon-home {
+    &::before { 
+    content: "";
+    display: block;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: -60px;
+    top: 22px;
+    background-image: url(../../../images/icon-social/home.svg);
+    }
+}
+.icon-image {
+    &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: -60px;
+    top: 22px;
+    background-image: url(../../../images/icon-social/digital.svg);
+    }
+}
+.icon-line { 
+    &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: -60px;
+    top: 22px;
+    background-image: url(../../../images/icon-social/line.svg);
+    }
+}

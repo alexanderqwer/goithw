@@ -1,0 +1,24 @@
+.tittle__lvl-4 {
+    @extend %kaushan;
+    font-size: 24px;
+    margin-bottom: 18px;
+    margin-top: 46px;
+}
+.tittle__lvl-3 {
+    @extend %montserrat900;
+    font-size: 30px;
+}
+.tittle__lvl-3::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: $sub-tittle-red;
+    margin: 0 auto;
+    margin-top: 42px;
+    margin-bottom: 66px;
+}
+.section-team__text {
+    color: $sub-shade-of-gray-color;
+    margin-bottom: 94px;
+}
