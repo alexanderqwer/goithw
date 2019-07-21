@@ -1,11 +1,10 @@
 .bg {
-    background: linear-gradient(to bottom,
-      rgba(243, 129, 129, 0.9), 
+  background-image: url(../images/bg/Layer15.png);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 46px;
+
+  background: linear-gradient(to bottom,
+      rgba(243, 129, 129, 0.9),
       rgba(252, 227, 138, 0.9));
-    
-    background-image: url(/images/bg/Layer15.png);
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 46px;
-    
 }

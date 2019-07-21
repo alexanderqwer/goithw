@@ -1,18 +1,19 @@
 .wrapper {
     @include center-flex ('sb');
     flex-wrap: wrap;
-}
-.wrapper__container {
-    width: 380px;
-    margin-right: -78px;
-}
 
-.wrapper__lvl-5 {
-    @extend %montserrat400;
-    font-size: 14px;
-}
+    &__container {
+        width: 380px;
+        margin-right: -78px;
+    }
 
-.wrapper__text {
-    @extend %roboto;
-    color: $sub-shade-of-gray-color;
+    &__lvl-5 {
+        @extend %montserrat400;
+        font-size: 14px;
+    }
+
+    &__text {
+        @extend %roboto;
+        color: $sub-shade-of-gray-color;
+    }
 }

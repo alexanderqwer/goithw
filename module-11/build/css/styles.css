@@ -389,7 +389,7 @@ template {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  src: local("Montserrat Regular"), local("Montserrat-Regular"), url("/fonts/montserrat-v13-latin-regular.woff2") format("woff2"), url("/fonts/montserrat-v13-latin-regular.woff") format("woff");
+  src: local("Montserrat Regular"), local("Montserrat-Regular"), url("../fonts/montserrat-v13-latin-regular.woff2") format("woff2"), url("../fonts/montserrat-v13-latin-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -399,7 +399,7 @@ template {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 900;
-  src: local("Montserrat Black"), local("Montserrat-Black"), url("/fonts/montserrat-v13-latin-900.woff2") format("woff2"), url("/fonts/montserrat-v13-latin-900.woff") format("woff");
+  src: local("Montserrat Black"), local("Montserrat-Black"), url("../fonts/montserrat-v13-latin-900.woff2") format("woff2"), url("../fonts/montserrat-v13-latin-900.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -409,7 +409,7 @@ template {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: local("Roboto"), local("Roboto-Regular"), url("/fonts/montserrat-v13-latin-regular.woff2") format("woff2"), url("/fonts/roboto-v19-latin-regular.woff") format("woff");
+  src: local("Roboto"), local("Roboto-Regular"), url("../fonts/montserrat-v13-latin-regular.woff2") format("woff2"), url("../fonts/roboto-v19-latin-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -419,7 +419,7 @@ template {
   font-family: 'Roboto';
   font-style: italic;
   font-weight: 400;
-  src: local("Roboto Italic"), local("Roboto-Italic"), url("/fonts/roboto-v19-latin-italic.woff2") format("woff2"), url("/fonts/roboto-v19-latin-italic.woff") format("woff");
+  src: local("Roboto Italic"), local("Roboto-Italic"), url("../fonts/roboto-v19-latin-italic.woff2") format("woff2"), url("../fonts/roboto-v19-latin-italic.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -510,13 +510,13 @@ template {
   color: #fce38a;
 }
 
-.nav_svg {
+.nav__svg {
   width: 20px;
   height: 20px;
   fill: #ffffff;
 }
 
-.nav_svg:hover {
+.nav__svg:hover {
   fill: #ffffff;
 }
 
@@ -674,6 +674,10 @@ template {
   font-size: 0;
 }
 
+.card {
+  position: relative;
+}
+
 .card__name-team {
   text-align: center;
   font-size: 14px;
@@ -764,10 +768,6 @@ template {
   fill: #ffffff;
 }
 
-.card {
-  position: relative;
-}
-
 .card__fon-overlay {
   position: relative;
   width: 380px;
@@ -824,9 +824,9 @@ template {
 }
 
 .bg {
-  background: linear-gradient(to bottom, rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9));
-  background-image: url(/images/bg/Layer15.png);
+  background-image: url(../images/bg/Layer15.png);
   background-size: cover;
   background-position: center;
   margin-bottom: 46px;
+  background: linear-gradient(to bottom, rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9));
 }

@@ -6,24 +6,25 @@
     max-width: 1200px;
     border-top: 1px solid black;
     margin-bottom: 10px;
-}
-.footer__name-red {
-    color: $sub-tittle-red;
-}
-.footer__email {
-    @extend %roboto-italic;
-    width: 228px;
-    height: 40px;
-    padding-left: 10px;
-}
-.footer__button {
-    @extend %roboto-italic;
-    width: 150px;
-    height: 46px;
-    background-color: $primary-turquoise-color;
-    color: $primary-white-color;
-    border: none;
-}
-.footer__subscribe {
-    margin-top: 10px;
+
+    &__name-red {
+        color: $sub-tittle-red;
+    }
+    &__email {
+        @extend %roboto-italic;
+        width: 228px;
+        height: 40px;
+        padding-left: 10px;
+    }
+    &__button {
+        @extend %roboto-italic;
+        width: 150px;
+        height: 46px;
+        background-color: $primary-turquoise-color;
+        color: $primary-white-color;
+        border: none;
+    }
+    &__subscribe {
+        margin-top: 10px;
+    }
 }
